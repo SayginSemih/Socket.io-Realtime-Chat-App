@@ -1,0 +1,31 @@
+.room_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+}
+.room_messages {
+    overflow-y: auto;
+    flex-grow: 1;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    background-color: #f0fdfa;
+}
+.room_message {
+    margin-bottom: 1rem;
+}
+.room_message-header {
+    font-weight: bold;
+}
+.room_message-body {
+    margin-top: 0.5rem;
+}
+.room_input-group {
+    margin-top: 1rem;
+}
+.room_btn-custom {
+    background-color: #010801;
+    color: white;
+}
